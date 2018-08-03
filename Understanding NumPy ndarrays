@@ -1,0 +1,3 @@
+taxi_five = taxi[:5]
+taxi_ten =  taxi[:10]
+print(taxi[:10])
