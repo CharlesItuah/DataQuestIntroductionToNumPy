@@ -1,0 +1,3 @@
+sorted_order = np.argsort(taxi[:,15])
+taxi_sorted = taxi[sorted_order]
+print(taxi_sorted)
