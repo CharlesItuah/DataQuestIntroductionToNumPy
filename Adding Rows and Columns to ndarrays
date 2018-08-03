@@ -1,0 +1,26 @@
+# These `ones` and `zeros` variables
+# are different from the ones in the
+# main lesson example
+
+print(ones)
+print(zeros)
+print() # creates a space in our output
+
+print(ones.shape)
+print(zeros.shape)
+print()
+
+zeros_2d = np.expand_dims(zeros,axis=1)
+print(zeros_2d)
+print(zeros_2d.shape)
+print()
+
+combined = np.concatenate([ones,zeros_2d],axis=1)
+print(combined)
+print()
+
+# the `trip_mph` variable is still available from the
+# previous screen
+trip_mph_2d = np.expand_dims(trip_mph, axis=1)
+taxi = np.concatenate([taxi, trip_mph_2d], axis=1)
+print(taxi)
